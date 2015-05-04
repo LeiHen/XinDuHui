@@ -1,19 +1,127 @@
 @charset "utf-8";
 
 /*全局*/
+html{
+	/*position: relative;*/
+	height: 100%;
+}
 body{
 	font-family:Helvetica,Arial,"Microsoft YaHei","微软雅黑",STXihei,"华文细黑",SimSun,"宋体",sans-serif;
 	font-size:62.5%;
+	position: relative;
+	height: 100%;
 }
 
 a:link,a:visited,a:hover,a:active{
+	/*text-align: center;*/
+	color: #fff;
+	text-decoration: none;
+}
 
+
+.bg{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	z-index: -1;
+	background: #fff none no-repeat center center;
+	background-size:cover;
+}
+
+.bg_index{
+	background-image:url(../images/banner/bg/img_index_1280x860.jpg);
 }
 
 
 
 
+.padding{
 
+}
+
+
+/* footer */
+.footer{
+	position: fixed;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	background: #000;
+	background: rgba(0,0,0,0.8);
+}
+
+.footer .padding{
+	padding: 0 20px;
+	height: 40px;
+	position: relative;
+}
+
+.footer .l{
+	float: left;
+}
+.footer .r{
+	float: right;
+	text-align: right;
+}
+
+.footer .link{
+	display: inline-block;
+	+display: inline;
+	+zoom: 1;
+	height: 40px;
+	padding: 0 10px;
+	font-size: 1.4em;
+	line-height: 40px;
+	color: #bdbdbd;
+}
+
+.footer .link .icon{
+	font-size: 1em;
+	line-height: 1em;
+}
+
+
+.footer .link:hover{
+	color: #fff;
+}
+
+
+.footer .l .link{
+	border-left: 2px dotted #878787;
+	height: 20px;
+	line-height: 20px;
+	margin: 10px 0;
+}
+.footer .l .link:first-child{
+	border-left:none;
+}
+.footer .room{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin:auto;
+	width: 96px;
+	display: inline-block;
+	+display: inline;
+	+zoom: 1;
+
+	font-size: 2.4em;
+	padding: 30px 80px;
+}
+
+
+.footer .language{
+	display: inline-block;
+	color: #fff;
+	height: 40px;
+	width: 100px;
+	background: red;
+	text-align: left;
+}
 
 
 /*
@@ -24,6 +132,22 @@ a:link,a:visited,a:hover,a:active{
 /*
 	元件
 */
+
+/* 按钮 */
+.u_btn{
+	text-align: center;
+	font-size: 1.4em;
+	line-height: 1em;
+	padding:10px 20px;
+	background: #820404;
+	background: rgba(130,4,4,.9);
+}
+
+.u_btn:hover{
+	background: #820404;
+	background: rgba(130,4,4,1);
+}
+
 
 
 
@@ -82,7 +206,7 @@ a:link,a:visited,a:hover,a:active{
 
 	主标题颜色 
 	副标题颜色 
-	  正文颜色 
+	  正文颜色 bdbdbd
 	
 	  过渡颜色
 
