@@ -13,8 +13,8 @@
 		el.innerHTML = '<span style="font-family: \'icomoon\'">' + entity + '</span>' + html;
 	}
 	var icons = {
-		'icon_phone': '&#xe601;',
 		'icon_globe2': '&#xe600;',
+		'icon_mobile': '&#xe60e;',
 		'icon_tripmode_bike': '&#xe603;',
 		'icon_tripmode_bus': '&#xe604;',
 		'icon_tripmode_car': '&#xe605;',
@@ -22,6 +22,9 @@
 		'icon_tripmode_subway': '&#xe607;',
 		'icon_tripmode_walk': '&#xe608;',
 		'icon_tripmode_flight': '&#xe609;',
+		'icon_fullscreen': '&#xe611;',
+		'icon_fullscreen_exit': '&#xe612;',
+		'icon_menu': '&#xe613;',
 		'icon_sitemap': '&#xf0e8;',
 		'icon_direction_down': '&#xe60a;',
 		'icon_direction_left': '&#xe60b;',

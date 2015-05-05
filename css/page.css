@@ -3,10 +3,19 @@
 
 
 
+/* 关于酒店 */
+.about{
 
-
-
-
+}
+.about .brief{
+	font-size:1.4em;
+	line-height: 1.6em;
+	/*text-indent: 2em;*/
+	color: #dbdbdb;
+}
+.about .m_list_3{
+	margin: 10px auto;
+}
 
 
 
@@ -33,7 +42,12 @@
 
 
 .u_btn,
-.footer .link{
+.footer .link,
+.footer .language .icon_down,
+.footer .language .ul .list,
+.header .logo,
+.header .logo .img,
+.m_list_3 .wrap img{
 	-webkit-transition:all .4s ease-out;
 	-moz-transition:all .4s ease-out;
 	-ms-transition:all .4s ease-out;
