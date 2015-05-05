@@ -70,6 +70,16 @@ a:link,a:visited,a:hover,a:active{
 .nav .link_ml{ margin-left: 127px; }
 .nav .link_mr{ margin-right: 127px; }
 
+/* 二级导航 */
+.nav_sub{
+
+}
+.nav_sub .link{
+	display: block;
+	float: left;
+	width: 16.666666%;
+}
+
 
 
 /* main */
